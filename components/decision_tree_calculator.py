@@ -14,7 +14,8 @@ class DecisionTreeCalculator:
         p = [(value/sum(data.values())) for value in data.values()]
         entropy = -sum([value*math.log2(value) for value in p])
 
-        entropy *= -1 if entropy == -0.0 else entropy
+        if entropy == -0.0:
+            entropy *= -1
 
         return entropy
 
