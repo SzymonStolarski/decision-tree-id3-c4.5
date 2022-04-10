@@ -17,4 +17,4 @@ clf = DecisionTreeClassifier(
 clf = DecisionTreeClassifier(CONDITIONAL_ATRIBUTES_IDX, DECISION_ATTRIBUTE_IDX)
 clf.fit(data)
 
-clf.visualiza_tree
+clf.visualize_tree

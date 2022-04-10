@@ -127,7 +127,7 @@ class DecisionTreeClassifier(BaseClassifier):
         return self.__fitted_tree
 
     @property
-    def visualiza_tree(self) -> None:
+    def visualize_tree(self) -> None:
         """
         Recursive tree visualization.
         """
